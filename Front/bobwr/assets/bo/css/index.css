@@ -1,0 +1,15 @@
+img {
+    cursor: pointer;
+}
+
+.wr_list {
+	height: 400px;
+	overflow:auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    height: 454px;
+}

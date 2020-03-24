@@ -1,0 +1,219 @@
+@charset "utf-8";
+.ui-content {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.ui-page, .ui-body-c, .ui-page-active, .ui-overlay-c, .ui-mobile-viewport
+{
+    background: transparent
+}
+body, .ui-overlay-c{
+	background-image: url(../logo/accueil.jpeg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: left center;
+	background-attachment: fixed;
+	}
+	
+.ui-bar-a{
+	border: 0px solid red;
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px black;
+	display: block;
+
+}
+
+.selection{
+
+overflow-y: scroll;
+width: 20%;
+height: 870px;
+display:block;
+float:right;
+background-color: white;
+margin-right:20px;
+
+}
+.selection a{
+
+display:inline-block;
+text-align: center;
+text-decoration : none;
+background-color: #EFECCA;
+width: 100%;
+margin-bottom: 3px;
+height: 30px;
+line-height: 30px;
+overflow:hidden;
+
+}
+
+
+
+.selection a:hover{
+background-color: #CCCCCC;
+
+
+
+}
+.choix{
+
+width: 70%;
+height: 960px;
+display:block;
+float:left;
+background-color: white;
+padding:5px;
+margin-left:10px;
+
+
+}
+#creer{
+margin-bottom:5px;	
+width: 20%;	
+line-height: initial;
+float:left;
+}
+#filtrer{
+margin-bottom:5px;	
+width: 20%;	
+line-height: initial;
+float:right;
+
+}
+
+
+
+.ui-checkbox{
+	
+width: 100px;
+display: inline-block;	
+	
+}
+
+label.ui-input-text
+{
+height:17px;	
+	
+}
+#label_mail_notif
+{
+height:initial;	
+	
+}
+#champ_name{
+width: 350px;
+ float: left;	
+	
+}
+#champ_pressplay{
+width: 150px;
+ float: left;
+     margin-left: 150px;
+	
+}
+#champ_claim{
+clear: both;
+width: 650px;
+    margin: 0px;
+	
+}
+#champ_pub{
+width: 250px;
+ float: left;	
+    margin: 0px;	
+}
+#champ_position{
+width: 650px;
+ float: left;
+     margin-left: 150px;
+	
+}
+
+
+
+
+
+#champ_position span .ui-select{
+	
+float:left;	
+width:200px	;
+margin-left:10px;
+	
+	
+}
+
+#champ_position #position_web .ui-select{
+	
+	
+width:400px	;
+
+	
+	
+}
+
+#champ_logo_color{
+width: 250px;
+}
+
+#champ_application_genre{
+clear: both;
+width: 250px;
+float: left;	
+	
+}
+#champ_claim_color{
+clear: both;
+width: 250px;
+margin:0px;
+
+	
+}
+#champ_orange_genre{
+width: 250px;
+ float: left;	
+	
+}
+#champ_sous_orange_genre{
+width: 250px;
+ float: left;
+     margin-left: 150px;
+	
+}
+#champ_itunes{
+clear: both;
+width: 250px;
+
+	
+}
+#champ_date_creation{
+ float: left;
+width: 250px;
+
+	
+}
+#champ_date_suppression2{
+ float: left;
+width: 250px;
+ margin-left: 150px;
+	
+}
+#champ_mail{
+width: 250px;
+
+	
+}
+#popup-alert-copie-coller a
+{display: block;
+width: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+#nombre_de_canaux{
+
+text-align:center;
+
+}	
+
